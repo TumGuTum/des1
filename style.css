@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Шапка*/
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        height: 100%;
+        padding: 0 15px;
+      }
+      
+      .navbar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 60px;
+        background: #000000;
+      }
+      
+      .navbar__wrap {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+      }
+      
+      .hamb {
+        display: none;
+      }
+      
+      .popup {
+        display: none;
+      }
+      
+      .logo {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+      }
+      
+      .menu > li > a {
+        text-decoration: none;
+      }
+      
+      .navbar__wrap .menu {
+        display: flex;
+      }
+      
+      .navbar__wrap .menu > li {
+        display: flex;
+        align-items: stretch;
+      }
+      
+      .navbar__wrap .menu > li > a {
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        color: rgba(255, 255, 255, 0.7);
+      }
+      
+      .navbar__wrap .menu > li > a:hover {
+        color: rgba(255, 255, 255, 1);
+      }
+
+      .menu1 > li > a {
+        text-decoration: none;
+      }
+      
+      .navbar__wrap .menu1 {
+        display: flex;
+      }
+      
+      .navbar__wrap .menu1 > li {
+        display: flex;
+        align-items: stretch;
+      }
+      
+      .navbar__wrap .menu1 > li > a {
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        color: rgba(255, 255, 255, 0.7);
+      }
+      
+      .navbar__wrap .menu1 > li > a:hover {
+        color: rgba(255, 255, 255, 1);
+      }
+      
+
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    section {
+        padding: 120px 0 0 0;
+         /* Отступы сверху и снизу для секции */
+        text-align: center; /* Центрирование содержимого секции */
+    }
+    .profile-container{
+        padding-top: 50px ;
+    }
+    .profile-container .name{
+        font-weight: 400;
+    }
+    .profile-container .JOB{
+        font-weight: 700;
+        font-size: 36px;
+        color:  #0068FF;
+    }
+    /* Стили для круглого изображения */
+    .rounded-image {
+        width: 300px; /* Задайте нужный размер */
+        height: 300px; /* Задайте нужный размер */
+        border-radius: 50%;
+        object-fit: cover; /* Обеспечивает правильное масштабирование изображения */
+    }
+    .info {
+        text-align: center; /* Центрирует элементы по горизонтали */
+    }
+    
+    .info-item {
+        display: inline-block; /* Позволяет элементам располагаться в строку */
+        margin-right: 101px; /* Увеличивает расстояние между элементами */
+    }
+    
+    .info-item:last-child {
+        margin-right: 0; /* Убирает отступ у последнего элемента */
+    }
