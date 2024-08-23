@@ -121,10 +121,16 @@ body{
     .profile-container .name{
         font-weight: 400;
     }
-    .profile-container .JOB{
+    
+    
+    /* Основные стили для заголовка */
+    .JOB {
         font-weight: 700;
         font-size: 36px;
-        color:  #0068FF;
+        color: #0068FF;
+        text-align: center; /* Центрирует текст по горизонтали внутри контейнера */
+        width: 100%; /* Заставляет заголовок занимать всю ширину контейнера */
+        box-sizing: border-box; /* Включает отступы и границы в общую ширину элемента */
     }
     /* Стили для круглого изображения */
     .rounded-image {
@@ -144,4 +150,47 @@ body{
     
     .info-item:last-child {
         margin-right: 0; /* Убирает отступ у последнего элемента */
+    }
+
+    .about {
+        padding: 50px 0; /* Отступы сверху и снизу секции */
+        background-color: #212121; /* Цвет фона секции, можно изменить по желанию */
+    }
+    .about-text {
+        max-width: 1200px; /* Соответствует ширине profile-container */
+      
+    }
+
+    .aboutme {
+        font-weight: 700;
+        font-size: 36px;
+        color: #0068FF;
+        text-align: left; /* Выровнять текст по левому краю */
+        width: 100%; /* Заставляет заголовок занимать всю ширину контейнера */
+        box-sizing: border-box; /* Включает отступы и границы в общую ширину элемента */
+
+        
+    }
+    .aboutme1 {
+        font-weight: 300;
+        font-size: 14px;
+        color: #ffffff;
+        text-align: left; /* Выровнять текст по левому краю */
+        width: 100%; /* Заставляет заголовок занимать всю ширину контейнера */
+        box-sizing: border-box; /* Включает отступы и границы в общую ширину элемента */
+
+        
+    }
+    section .about{
+        padding: 120px 0 0 0;
+         /* Отступы сверху и снизу для секции */
+        text-align: left; /* Центрирование содержимого секции */
+    }
+
+    .profile-container1{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    .bold-text {
+        font-weight: 500;
     }
