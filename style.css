@@ -153,44 +153,47 @@ body{
     }
 
     .about {
-        padding: 50px 0; /* Отступы сверху и снизу секции */
-        background-color: #212121; /* Цвет фона секции, можно изменить по желанию */
+        padding: 20px 0; /* Уменьшенные отступы для мобильных устройств */
+        background-color: #212121; /* Цвет фона секции */
     }
+    
     .about-text {
-        max-width: 1200px; /* Соответствует ширине profile-container */
-      
+        max-width: 100%; /* Убираем ограничение на ширину для мобильных устройств */
     }
-
+    
     .aboutme {
         font-weight: 700;
-        font-size: 36px;
+        font-size: 36px; 
         color: #0068FF;
-        text-align: left; /* Выровнять текст по левому краю */
-        width: 100%; /* Заставляет заголовок занимать всю ширину контейнера */
-        box-sizing: border-box; /* Включает отступы и границы в общую ширину элемента */
-
-        
+        text-align: left;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 300px;
     }
+    
     .aboutme1 {
         font-weight: 300;
         font-size: 14px;
         color: #ffffff;
-        text-align: left; /* Выровнять текст по левому краю */
-        width: 100%; /* Заставляет заголовок занимать всю ширину контейнера */
-        box-sizing: border-box; /* Включает отступы и границы в общую ширину элемента */
-
-        
-    }
-    section .about{
-        padding: 120px 0 0 0;
-         /* Отступы сверху и снизу для секции */
-        text-align: left; /* Центрирование содержимого секции */
-    }
-
-    .profile-container1{
+        text-align: left;
+        width: 100%;
+        box-sizing: border-box;
         padding-left: 300px;
         padding-right: 300px;
     }
+    
+    .profile-container1 {
+        padding-left: 15px; /* Уменьшенные отступы по бокам для мобильных устройств */
+        padding-right: 15px;
+    }
+    
     .bold-text {
         font-weight: 500;
     }
+    
+    
+
+
+
+   
+   
