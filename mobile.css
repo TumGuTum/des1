@@ -116,3 +116,26 @@
         margin-bottom: 0; /* Убирает отступ у последнего элемента */
     }
 }
+/* Медиазапрос для устройств с максимальной шириной 600px */
+@media (max-width: 600px) {
+    .about {
+        padding: 10px 0; /* Еще больше уменьшенные отступы для очень маленьких экранов */
+        
+    }
+
+    .aboutme {
+        font-size: 20px; /* Еще меньше размер шрифта заголовка для очень маленьких экранов */
+        padding-left: 30px;
+    }
+
+    .aboutme1 {
+        font-size: 12px; /* Уменьшаем размер текста для контента на маленьких экранах */
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .profile-container1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
